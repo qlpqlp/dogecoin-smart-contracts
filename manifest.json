@@ -1,0 +1,18 @@
+{
+  "name": "Dogecoin Smart Contracts Wizard",
+  "short_name": "DOGE Contracts",
+  "description": "Build Layer 1 Dogecoin smart contracts with native OP_CODES. Educational wizard.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "assets/dogecoin.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

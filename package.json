@@ -1,0 +1,21 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "Educational offline-capable web wizard for building Dogecoin smart contracts using native OP_CODES.",
+  "homepage": "https://wizard.dogego.org",
+  "main": "sw.js",
+  "scripts": {
+    "build": "esbuild js/app.js --bundle --format=iife --outfile=js/bundle.js --global-name=DogeWizard",
+    "prebuild": "echo Building bundle for offline/file:// support..."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.2.0",
+    "@noble/secp256k1": "^3.1.0"
+  }
+}
